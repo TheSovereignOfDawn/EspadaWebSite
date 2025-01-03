@@ -1,11 +1,25 @@
+/* General */
+
 nav {
     background-color: #ebebe0;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
     color: #7c7c50;
+    margin: 15px;
+    font-family: "Germania One", serif;
+    font-size: 1.25em;
+}
+
+a img {
+    height: 50px;
 }
 
 section {
@@ -19,6 +33,31 @@ section div {
     margin: 10px 20px 10px 20px;
 }
 
+h1 {
+    font-family: "New Rocker", serif;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: "New Rocker", serif;
+    font-size: 1.75em;
+    color: #464646;
+}
+
+p {
+    font-family: "Public Sans", serif;
+}
+
+/* Specific class */
+
 .espadaDescriptionImg {
     width: 100%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1080px) {
+        section {
+            flex-direction: column;
+        }
+    }
