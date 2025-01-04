@@ -9,6 +9,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px #7c7c50 solid;
+    border-radius: 20px;
 }
 
 a {
@@ -31,6 +33,7 @@ section {
 
 section div {
     margin: 10px 20px 10px 20px;
+    padding: 20px;
 }
 
 h1 {
@@ -52,6 +55,22 @@ p {
 
 .espadaDescriptionImg {
     width: 100%;
+}
+
+.texteDeSectionGauche {
+    border-bottom: 3px #7c7c50 solid;
+    border-left: 3px #7c7c50 solid;
+    border-radius: 20px;
+}
+
+.texteDeSectionDroite {
+    border-bottom: 3px #7c7c50 solid;
+    border-right: 3px #7c7c50 solid;
+    border-radius: 20px;
+}
+
+.tmpGoat {
+    color: palevioletred;
 }
 
 /* Media Queries */
