@@ -135,6 +135,10 @@ footer {
     background-repeat: no-repeat;
 }
 
+.lienGitHub {
+    margin: 0px;
+}
+
 /* Pseudo class */
 
 a:hover {
