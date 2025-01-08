@@ -28,12 +28,13 @@ section {
     display: flex;
     flex-direction: row;
     width: 95%;
-    margin: auto;
+    margin: 25px auto;
 }
 
 section div {
     margin: 10px 20px 10px 20px;
     padding: 20px;
+    width: 50%;
 }
 
 h1 {
@@ -49,12 +50,23 @@ h2 {
 
 p {
     font-family: "Public Sans", serif;
+    text-align: justify;
+}
+
+footer {
+    background-color: #ebebe0;
+    padding: 20px;
+    border-top: 3px #7c7c50 solid;
+    font-family: "Public Sans", serif;
+    font-size: 0.75em;
 }
 
 /* Specific class */
 
 .espadaDescriptionImg {
-    width: 100%;
+    background-image: url("img/espadaDescription.jpg");
+    background-size: cover;
+    background-position: top;
 }
 
 .texteDeSectionGauche {
@@ -69,14 +81,86 @@ p {
     border-radius: 20px;
 }
 
+.imgOken {
+    background-image: url("img/oken.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .tmpGoat {
     color: palevioletred;
+}
+
+.lienOken {
+    align-self: center;
+    justify-self: center;
+}
+
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    grid-template-rows: 1fr 1fr;   
+    gap: 10px;                  
+    width: 100%;                  
+    max-width: 500px;             
+}
+
+.contactGrid > * {
+    align-self: center;
+}
+
+.logoContactMail {
+    background-image: url("img/logoMail.png");
+}
+
+.logoContactInstagram {
+    background-image: url("img/logoInstagram.png");
+}
+
+.logoContactMail,
+.logoContactInstagram {
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px; 
+    align-self: center; 
+    justify-self: center; 
+}
+
+.espadaContactImg {
+    background-image: url("img/test.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Pseudo class */
+
+a:hover {
+    opacity: 0.5;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 1080px) {
-        section {
+        section div {
+            width: 95%;
+            margin: 25px auto;
+        }
+
+        .sectionPresentation,
+        .sectionContacts {
             flex-direction: column;
+        }
+
+        .sectionOken {
+            flex-direction: column-reverse;
+        }
+
+        .espadaDescriptionImg,
+        .imgOken,
+        .espadaContactImg {
+            min-height: 500px;
         }
     }
