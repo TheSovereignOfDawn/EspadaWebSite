@@ -162,6 +162,10 @@ a:hover {
             flex-direction: column-reverse;
         }
 
+        .lienOken {
+            text-align: center;
+        }
+
         .espadaDescriptionImg,
         .imgOken,
         .espadaContactImg {
