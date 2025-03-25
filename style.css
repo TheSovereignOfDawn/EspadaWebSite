@@ -48,7 +48,7 @@ h2 {
     color: #464646;
 }
 
-p {
+p, ul {
     font-family: "Public Sans", serif;
     text-align: justify;
 }
@@ -85,10 +85,6 @@ footer {
     background-image: url("img/oken.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.tmpGoat {
-    color: palevioletred;
 }
 
 .lienOken {
@@ -129,7 +125,7 @@ footer {
 }
 
 .espadaContactImg {
-    background-image: url("img/test.png");
+    background-image: url("img/espadaKatana.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
