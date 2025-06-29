@@ -20,8 +20,12 @@ a {
     font-size: 1.25em;
 }
 
-a img {
+a img, nav img {
     height: 50px;
+}
+
+nav img {
+    margin: 15px;
 }
 
 section {
@@ -137,7 +141,7 @@ footer {
 
 /* Pseudo class */
 
-a:hover {
+a:hover, nav img:hover {
     opacity: 0.5;
 }
 
