@@ -180,7 +180,7 @@ a:hover, nav img:hover {
             grid-template-rows: 1fr 1fr;
         }
 
-        nav a {
+        nav a, nav img {
             margin: auto;
         }
     }
