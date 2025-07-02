@@ -3,7 +3,7 @@ translationFlag.addEventListener("click", () => {
     let source = translationFlag.src
     console.log(source)
     if (source.endsWith("img/ukFlag.png")) {
-        source= "img/franceFlag.png"
+        source = "img/franceFlag.png"
         traductToEnglish()
     }
     else {
