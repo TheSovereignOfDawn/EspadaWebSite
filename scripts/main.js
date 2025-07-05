@@ -8,6 +8,7 @@ translationFlag.addEventListener("click", () => {
     }
     else {
         source = "img/ukFlag.png"
+        traductToFrench() 
     }
     translationFlag.src = source
 })
