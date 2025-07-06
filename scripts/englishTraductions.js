@@ -29,6 +29,6 @@ function traductToEnglish() {
     traductByTextContent(liToTradList, liTraduction)
 
     let footerToTrad = document.querySelector("footer") 
-    let footerTrad = `<em>Website developed by <a href="https://github.com/TheSovereignOfDawn" class="lienGitHub">TheSovereignOfDawn</a> / Last updated: 01/29/2025</em>`
+    let footerTrad = `<em>Website developed by <a href="https://github.com/TheSovereignOfDawn" class="lienGitHub">TheSovereignOfDawn</a> / Last updated: 06/07/2025</em>`
     footerToTrad.innerHTML = footerTrad
 }

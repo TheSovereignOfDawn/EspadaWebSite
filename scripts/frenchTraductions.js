@@ -44,6 +44,6 @@ function traductToFrench() {
     traductByTextContent(liToTradList, liTraduction)
 
     let footerToTrad = document.querySelector("footer") 
-    let footerTrad = `<em>Site web dévelopé par <a href="https://github.com/TheSovereignOfDawn" class="lienGitHub">TheSovereignOfDawn</a> / Dernière mise à jour: 29/01/2025</em>`
+    let footerTrad = `<em>Site web dévelopé par <a href="https://github.com/TheSovereignOfDawn" class="lienGitHub">TheSovereignOfDawn</a> / Dernière mise à jour: 06/07/2025</em>`
     footerToTrad.innerHTML = footerTrad
 }
