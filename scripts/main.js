@@ -1,6 +1,6 @@
 let translationFlag = document.getElementById("translationFlag")
+let source = translationFlag.src
 translationFlag.addEventListener("click", () => {
-    let source = translationFlag.src
     console.log(source)
     if (source.endsWith("img/ukFlag.png")) {
         source = "img/franceFlag.png"
